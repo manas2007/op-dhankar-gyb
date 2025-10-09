@@ -11,8 +11,8 @@ const Book = () => {
         <div className={styles.bookSectionWrapper}>
             <div className={styles.bookSectionImage}>
                 <img className={styles.bookImage} src='/assets/images/landingPage/book-moccup.png' />
-                <img className={styles.line1} src="/assets/images/landingPage/line-1.png" />
-                <img className={styles.line2} src="/assets/images/landingPage/line-2.png" />
+                <img className={styles.line1} src="/assets/images/landingPage/Line-1.png" />
+                <img className={styles.line2} src="/assets/images/landingPage/Line-2.png" />
             </div>
             <div className={styles.bookSectionContent}>
                 <div className={styles.bookSectionHeading}>
