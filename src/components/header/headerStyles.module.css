@@ -1,0 +1,94 @@
+
+.headerParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerWrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logoWrapper img {
+    width: 2.8rem;
+    margin-right: 1rem;
+}
+
+.logoWrapper h4 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.headerTabsWrapper {
+    display: flex;
+}
+
+.headerTabsWrapper h4 {
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.headerParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.headerWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.logoWrapper img {
+    width: 2.8rem;
+    margin-right: 1rem;
+}
+
+.logoWrapper h4 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.headerTabsWrapper {
+    display: none
+}
+
+.headerTabsWrapper h4 {
+    margin-left: 2rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1441px) {
+}

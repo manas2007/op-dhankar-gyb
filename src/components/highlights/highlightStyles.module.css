@@ -1,0 +1,348 @@
+
+.highlightsParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #173f75;
+}
+
+.highlightsWrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0; 
+}
+
+.highlightsContentWrapper {
+    text-align: center;
+    padding-bottom: 3rem;
+    color: white;
+}
+
+.highlightsContentWrapper h2 {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.highlightsContentWrapper p {
+    font-size: 1.2rem;
+    padding: 0rem 0;
+}
+
+.highlightsContentWrapper button {
+    padding: 0.8rem 2rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-top: 1rem;
+    cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.highlightsPostsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* News Template */
+
+.newsTemplateWrapper {
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: 22rem;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.newsTemplateWrapper img {
+    border-radius: 10px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.newsTemplateHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.newsTemplateHeader p {
+    background: #1a56a5;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.newsTemplateHeader button {
+    background: #5193df;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 10px;
+    cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.newsTemplateContent {
+
+}
+
+.newsTemplateContent h3 {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    line-height: 2rem;
+    width: 95%;
+}
+
+.newsTemplateContent p {
+    font-size: 15px;
+    padding-top: 1rem;
+    line-height: 18px;
+}
+
+/* Video Template */
+
+.videoTemplateWrapper {
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: 22rem;
+    height: 30rem;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.videoTemplateWrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
+    background-size: 20%;
+    border-radius: 20px;
+    opacity: 0.8;
+    z-index: 1;
+}
+
+
+
+.videoTemplateWrapper h3 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 1.9rem;
+}
+
+.videoTemplateHeader {
+    display: flex;
+    justify-content: end;
+}
+
+.videoTemplateHeader button {
+    font-size: 12px;
+    background: white;
+    color: #1a56a5;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.videoTemplateContent {
+    z-index: 5;
+    padding: 1.5rem;
+}
+
+.videoTemplateContent h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2arem;
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.highlightsParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #173f75;
+}
+
+.highlightsWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0rem; 
+}
+
+.highlightsContentWrapper {
+    text-align: center;
+    padding: 2rem 0;
+    color: white;
+}
+
+.highlightsContentWrapper h2 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+}
+
+.highlightsContentWrapper p {
+    font-size: 1rem;
+    padding: 0.5rem 0;
+}
+
+.highlightsContentWrapper button {
+    padding: 0.7rem 1.5rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-top: 1rem;
+}
+
+.highlightsPostsWrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* News Template */
+
+.newsTemplateWrapper {
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsTemplateWrapper img {
+    border-radius: 10px;
+}
+
+.newsTemplateHeader {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.newsTemplateHeader p {
+    background: #1a56a5;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.newsTemplateHeader button {
+    background: #5193df;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 10px;
+}
+
+.newsTemplateContent {
+
+}
+
+.newsTemplateContent h3 {
+    font-size: 1.9rem;
+    font-weight: bolder;
+    line-height: 1.9rem;
+    width: 80%;
+}
+
+.newsTemplateContent p {
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 20px;
+}
+
+/* Video Template */
+
+.videoTemplateWrapper {
+    padding: 0.3rem;
+    margin-bottom: 2rem;
+    width: 100rem;
+    height: 30rem;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.videoTemplateWrapper::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 65%;
+    background: linear-gradient(to top, #000, rgba(0, 0, 0, 0));
+    background-size: 20%;
+    opacity: 0.8;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+
+
+.videoTemplateWrapper h3 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    line-height: 1.9rem;
+}
+
+.videoTemplateHeader {
+    display: flex;
+    justify-content: end;
+}
+
+.videoTemplateHeader button {
+    font-size: 12px;
+    background: white;
+    color: #1a56a5;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.videoTemplateContent {
+    z-index: 5;
+    padding: 1.5rem;
+}
+
+.videoTemplateContent h3 {
+    font-size: 2rem;
+    font-weight: bolder;
+    line-height: 2rem;
+}
+
+}
+
+@media only screen and (min-width: 1441px) {
+}
+
+
+
+
+

@@ -1,0 +1,122 @@
+
+.whatIfParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.leftLogo {
+    position: absolute;
+    width: 12rem;
+    top: 40%;
+    left: 0rem;
+}
+
+.rightLogo {
+    position: absolute;
+    width: 9rem;
+    top: 2rem;
+    right: 0rem;
+    transform: rotateY(180deg);
+}
+
+.whatIfWrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.whatIfWrapper h2 {
+    font-size: 3.5rem;
+    text-align: start;
+    line-height: 3.6rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+.whatIfContentWrapper {
+    display: flex;
+    justify-content: end;
+}
+
+.whatIfContentWrapper p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1.5rem;
+    /* width: 50%; */
+}
+
+.whatIfContent {
+    width: 50%;
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.whatIfParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.leftLogo {
+    position: absolute;
+    width: 4rem;
+    top: 40%;
+    left: 0rem;
+}
+
+.rightLogo {
+    position: absolute;
+    width: 4rem;
+    top: 2rem;
+    right: 0rem;
+    transform: rotateY(180deg);
+}
+
+.whatIfWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 4rem 0 0 0;
+}
+
+.whatIfWrapper h2 {
+    font-size: 2.2rem;
+    text-align: center;
+    line-height: 2.3rem;
+    margin-bottom: 2rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+.whatIfContentWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.whatIfContentWrapper p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #333;
+    margin-bottom: 1.5rem;
+    /* width: 50%; */
+}
+
+.whatIfContent {
+    width: 100%;
+}
+
+
+
+}
+
+@media only screen and (min-width: 1441px) {
+}
+

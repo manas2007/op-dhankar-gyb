@@ -1,0 +1,216 @@
+.whyThisMatterParent {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/images/landingPage/web-bg-4.png");
+}
+
+.whyThisMatterWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+.whyThisMatterHeader {
+  margin: 2rem 0;
+  text-align: center;
+}
+
+.whyThisMatterHeader h2 {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: #1a56a5;
+}
+
+.whyThisMatterHeader p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-top: 1rem;
+  color: #1a56a5;
+}
+
+.whyThisMatterContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6rem 0;
+}
+
+.whyThisMatterLeftSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  padding: 2rem;
+}
+
+.pointWrapper {
+  background: white;
+  color: black;
+  width: 15rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 20px;
+  margin-bottom: 3rem;
+  opacity: 0.8;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.pointWrapper h3 {
+  background: #1a56a5;
+  color: white;
+  padding: 0.5rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  border-radius: 30px;
+  width: fit-content;
+  position: relative;
+  top: -2rem;
+}
+
+.pointWrapper p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.whyThisMatterRightSection {
+  background: #1a56a5;
+  color: white;
+  padding: 0 2rem 2rem 2rem;
+  border-radius: 20px;
+  position: relative;
+  /* min-height: 20rem; */
+  width: 50%;
+}
+
+.whyThisMatterRightSection img {
+  position: relative;
+  top: -2rem;
+  border-radius: 20px;
+}
+
+.whyThisMatterRightSection h4 {
+  font-size: 2rem;
+  line-height: 2.1rem;
+  text-align: center;
+  font-weight: bolder;
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .whyThisMatterParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("/assets/images/landingPage/web-bg-4.png");
+  }
+
+  .whyThisMatterWrapper {
+    width: 80%;
+    margin: 0 auto;
+    padding: 4rem 0 2rem 0;
+  }
+
+  .whyThisMatterHeader {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .whyThisMatterHeader h2 {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    font-weight: bolder;
+    color: #1a56a5;
+  }
+
+  .whyThisMatterHeader p {
+    font-size: 1rem;
+    line-height: 1.1rem;
+    margin-top: 1rem;
+    color: #1a56a5;
+  }
+
+  .whyThisMatterContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+  }
+
+  .whyThisMatterLeftSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0rem;
+  }
+
+  .pointWrapper {
+    background: white;
+    color: black;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    opacity: 0.8;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .pointWrapper h3 {
+    background: #1a56a5;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    border-radius: 30px;
+    width: fit-content;
+    position: relative;
+    top: -2rem;
+  }
+
+  .pointWrapper p {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .whyThisMatterRightSection {
+    background: #1a56a5;
+    color: white;
+    padding: 0 2rem 2rem 2rem;
+    border-radius: 20px;
+    position: relative;
+    /* min-height: 20rem; */
+    width: 100%;
+    margin-top: 2rem;
+  }
+
+  .whyThisMatterRightSection img {
+    position: relative;
+    top: -2rem;
+    border-radius: 20px;
+  }
+
+  .whyThisMatterRightSection h4 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    text-align: center;
+    font-weight: bolder;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+}

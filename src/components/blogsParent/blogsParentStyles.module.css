@@ -1,0 +1,213 @@
+.aboutHeroSectionParent {
+  width: 100%;
+  height: 60vh;
+  background-image: url("/assets/images/blogs/newspaper.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0rem 0 1rem 0;
+}
+
+.aboutHeroSectionWrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.aboutHeroSectionContent {
+  font-size: 6.5rem;
+  font-weight: bolder;
+  line-height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+}
+
+.blogsMainWrapper {
+  width: 80%;
+  margin: 4rem auto;
+}
+
+.blogsCardsWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.blogsCard {
+  width: 22rem;
+  cursor: pointer;
+}
+
+.blogsCardBanner {
+  position: relative;
+}
+
+.blogsCardBanner img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogsCardBanner p {
+  position: absolute;
+  color: #173f75;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  font-size: 12px;
+  background: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+.blogsCardContent {
+  background: #173f75;
+  color: white;
+  position: relative;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  min-height: 15rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogsCardContent h4 {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
+.blogsCardContent p {
+  font-size: 0.9rem;
+  padding: 0.8rem 0;
+}
+
+.blogsCardContent button {
+  padding: 0.7rem 1.5rem;
+  background: #5193df;
+  color: white;
+  border-radius: 30px;
+  font-size: 13px;
+  position: absolute;
+  bottom: -1rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutHeroSectionParent {
+  width: 100%;
+  height: 50vh;
+  background-image: url("/assets/images/blogs/newspaper.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0rem 0;
+}
+
+.aboutHeroSectionWrapper {
+  width: 90%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.aboutHeroSectionContent {
+  font-size: 2.2rem;
+  font-weight: bolder;
+  line-height: 3.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100%);
+}
+
+.blogsMainWrapper {
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.blogsCardsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.blogsCard {
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+
+.blogsCardBanner {
+  position: relative;
+}
+
+.blogsCardBanner img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogsCardBanner p {
+  position: absolute;
+  color: #173f75;
+  bottom: 0.5rem;
+  left: 0.5rem;
+  font-size: 12px;
+  background: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+.blogsCardContent {
+  background: #173f75;
+  color: white;
+  position: relative;
+  padding: 1rem 2rem 2rem 2rem;
+  border-radius: 20px;
+  margin-top: 0.2rem;
+  min-height: unset;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blogsCardContent h4 {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+}
+
+.blogsCardContent p {
+  font-size: 0.9rem;
+  padding: 0.8rem 0;
+}
+
+.blogsCardContent button {
+  padding: 0.7rem 1.5rem;
+  background: #5193df;
+  color: white;
+  border-radius: 30px;
+  font-size: 13px;
+  position: absolute;
+  bottom: -1rem;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+}
+
+@media only screen and (min-width: 1441px) {
+}

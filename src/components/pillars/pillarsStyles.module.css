@@ -1,0 +1,185 @@
+.pillarsParent {
+  width: 100%;
+  margin: 2rem 0;
+  padding: 4rem 0;
+  background-image: url("/assets/images/landingPage/web-bg-5.png");
+  background-position: 20% 30%;
+}
+
+.pillarsWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.pillarsHeaderWrapper {
+  text-align: center;
+  /* margin-bottom: 1.5rem; */
+  width: 60%;
+  margin: 0 auto 1.5rem auto;
+}
+
+.pillarsHeaderWrapper h2 {
+  font-size: 3.2rem;
+  font-weight: bolder;
+  color: #1a56a5;
+}
+
+.pillarsHeaderWrapper p {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  margin-top: 1rem;
+  color: #1a56a5;
+}
+
+.pillarsTabWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pillarsTabWrapper h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  padding: 1.5rem 2rem;
+}
+
+.activeTabWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.activeTabWrapper img {
+  width: 48%;
+  border-radius: 20px;
+}
+
+.activeTabContent {
+  padding: 2rem;
+  width: 48%;
+}
+
+.activeTabContent h5 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: #1a56a5;
+}
+
+.activeTabContent p {
+  padding: 1rem 0;
+  line-height: 1.3rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.activeTabContent button {
+  background: #5193df;
+  color: white;
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .pillarsParent {
+    width: 100%;
+    margin: 2rem 0 0 0;
+    padding: 0rem 0;
+    background-image: url("/assets/images/landingPage/web-bg-5.png");
+    /* background-size: cover; */
+    background-position: 20% 30%;
+  }
+
+  .pillarsWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .pillarsHeaderWrapper {
+    text-align: center;
+    width: 100%;
+  }
+
+  .pillarsHeaderWrapper h2 {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    color: #1a56a5;
+  }
+
+  .pillarsHeaderWrapper p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    color: #1a56a5;
+  }
+
+  .pillarsTabWrapper {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .pillarsTabWrapper h6 {
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    padding: 1rem 0.8rem;
+  }
+
+  .activeTabWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0 0 0;
+  }
+
+  .activeTabWrapper img {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .activeTabContent {
+    padding: 2rem 1rem;
+    width: 100%;
+  }
+
+  .activeTabContent h5 {
+    font-size: 2rem;
+    line-height: 2.1rem;
+    font-weight: bolder;
+    color: #1a56a5;
+  }
+
+  .activeTabContent p {
+    padding: 1rem 0;
+    line-height: 1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .activeTabContent button {
+    background: #5193df;
+    color: white;
+    padding: 0.7rem 1.8rem;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+}

@@ -1,0 +1,63 @@
+.aboutHeroSectionParent {
+  width: 100%;
+  height: 60vh;
+  background-image: url("/assets/images/blogs/clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0rem 0 1rem 0;
+}
+
+.aboutHeroSectionWrapper {
+  width: 80%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.aboutHeroSectionContent {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 3.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutHeroSectionParent {
+    width: 100%;
+    height: 50vh;
+    background-image: url("/assets/images/aboutUs/header-Img-2.png");
+    background-size: cover;
+    background-position: center;
+    padding: 0rem 0;
+  }
+
+  .aboutHeroSectionWrapper {
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    color: white;
+  }
+
+  .aboutHeroSectionContent {
+    font-size: 2.2rem;
+    font-weight: bolder;
+    line-height: 2.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: unset;
+    transform: translateY(-30%);
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+}

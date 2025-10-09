@@ -1,0 +1,168 @@
+.bookSectionParent {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bookSectionWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.bookSectionImage {
+  position: relative;
+  width: 55%;
+}
+
+.bookSectionImage .bookImage {
+  width: 50%;
+  position: relative;
+  left: 0rem;
+  top: -2rem;
+  transform: rotate(-10deg);
+  z-index: 10;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.bookSectionImage .line1 {
+  position: absolute;
+  width: 9%;
+  top: 0;
+  left: -10%;
+  z-index: 2;
+}
+
+.bookSectionImage .line2 {
+  position: absolute;
+  width: 50%;
+  z-index: 3;
+  top: 0;
+  left: 20%;
+}
+
+.bookSectionContent {
+  width: 45%;
+}
+
+.bookSectionHeading {
+  line-height: 3rem;
+  color: #1a56a5;
+}
+
+.bookSectionHeading h2 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  margin: 0;
+}
+
+.bookSectionHeading h3 {
+  font-size: 2.8rem;
+  font-weight: bolder;
+}
+
+.bookSectionContent p {
+  margin: 2rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.bookSectionContent button {
+  padding: 0.8rem 2rem;
+  background: #5193df;
+  color: white;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .bookSectionParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bookSectionWrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .bookSectionImage {
+    position: relative;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .bookSectionImage .bookImage {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    transform: rotate(0deg);
+  }
+
+  .bookSectionImage .line1 {
+    display: none;
+  }
+
+  .bookSectionImage .line2 {
+    display: none;
+  }
+
+  /* .bookSectionWrapper img {
+  width: 50%;
+} */
+
+  .bookSectionContent {
+    width: 100%;
+  }
+
+  .bookSectionHeading {
+    line-height: 2.8rem;
+    color: #1a56a5;
+  }
+
+  .bookSectionHeading h2 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    margin: 0;
+  }
+
+  .bookSectionHeading h3 {
+    font-size: 2.8rem;
+    font-weight: bolder;
+  }
+
+  .bookSectionContent p {
+    margin: 2rem 0;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+  }
+
+  .bookSectionContent button {
+    padding: 0.8rem 2rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1441px) {
+}

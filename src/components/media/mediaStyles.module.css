@@ -1,0 +1,218 @@
+
+.mediaParent {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 4rem 0;
+}
+
+.mediaWrapper {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 7%;
+}
+
+.mediaContentWrapper {
+    padding: 0 1rem;
+    text-align: start;
+    width: 20%;
+}
+
+.mediaContentWrapper h2 {
+    font-size: 3.5rem;
+    line-height: 3.6rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+.mediaContentWrapper p {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+}
+
+.mediaContentWrapper button {
+    padding: 0.8rem 2rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.mediaCarouselWrapper {
+    width: 80%;
+}
+
+.mediaCarousel {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.mediaCarouselWrapper img {
+    width: 18rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+.mediaCarouselFooter {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;   
+}
+
+.navigationButtonsWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navigationButtonsWrapper button {
+    background: none;
+    color: #5193df;
+    border: none;
+    padding: 0.5rem 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    border: 1px solid #5193df;
+}
+
+.navigationButtonsWrapper button:hover {
+    background: #1a56a5;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    border: 1px solid #1a56a5;
+}
+
+.mediaCarouselFooter h3 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+.mediaParent {
+    width: 100%;
+    margin: 0;
+    padding: 2rem 0;
+}
+
+.mediaWrapper {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 7%;
+}
+
+.mediaContentWrapper {
+    padding: 1rem 1rem 1rem 0;
+    text-align: start;
+    width: 100%;
+}
+
+.mediaContentWrapper h2 {
+    font-size: 2.2rem;
+    line-height: 2rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+.mediaContentWrapper p {
+    padding: 1rem 0;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.1rem;
+}
+
+.mediaContentWrapper button {
+    padding: 0.7rem 1.5rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+.mediaCarouselWrapper {
+    width: 100%;
+}
+
+.mediaCarousel {
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.mediaCarouselWrapper img {
+    width: 18rem;
+    margin-right: 2rem;
+    border-radius: 10px;
+}
+
+.mediaCarouselFooter {
+    width: 90%;
+    display: none;
+    align-items: center;
+    margin: 2rem 0;   
+}
+
+.navigationButtonsWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.navigationButtonsWrapper button {
+    background: none;
+    color: #5193df;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    border: 1px solid #5193df;
+}
+
+.navigationButtonsWrapper button:hover {
+    background: #1a56a5;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0 0.5rem;
+    border: 1px solid #1a56a5;
+}
+
+.mediaCarouselFooter h3 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: #1a56a5;
+}
+
+}
+
+@media only screen and (min-width: 1441px) {
+}
+

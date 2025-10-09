@@ -1,0 +1,264 @@
+
+.blogsParent {
+    width: 100%;
+    margin: 4rem 0 0rem 0;
+    padding: 4rem 0;
+    position: relative;
+    background-image: url('/assets/images/landingPage/web-bg-5.png') ;
+    background-position: 0 -50%;
+}
+
+.blogsParent .leftLogo {
+    position: absolute;
+    width: 10rem;
+    top: 2rem;
+    left: 0;
+}
+
+.blogsParent .rightLogo {
+    position: absolute;
+    width: 10rem;
+    top: 10rem;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.blogsWrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.blogsPreHeader {
+    text-align: center;
+}
+
+.blogsPreHeader p {
+    font-size: 1.2rem;
+    color: #173f75;
+    font-weight: 500;
+}
+
+.blogsPreHeader h2 {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: #173f75;
+    margin-top: 0.5rem;
+}
+
+.blogsHeaderWrapper {
+    text-align: center;
+    padding: 3rem 0;
+    color: #173f75;
+}
+
+.blogsHeaderWrapper h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.blogsHeaderWrapper p {
+    font-size: 1.2rem;
+    color: #173f75;
+    font-weight: 500;
+}
+
+.blogsCardsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.blogsCard {
+    width: 22rem;
+}
+
+.blogsCardBanner {
+    position: relative;
+}
+
+.blogsCardBanner img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.blogsCardBanner p {
+    position: absolute;
+    color: #173f75;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    font-size: 12px;
+    background: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+}
+
+.blogsCardContent {
+    background: #173f75;
+    color: white;
+    padding: 1rem 2rem 0rem 2rem;
+    border-radius: 20px;
+    margin-top: 1rem;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.blogsCardContent h4 {
+    font-size: 1.5rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+}
+
+.blogsCardContent p {
+    font-size: 0.9rem;
+    padding: 0.8rem 0;
+}
+
+.blogsCardContent button {
+    padding: 0.7rem 1.5rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 13px;
+    position: relative;
+    bottom: -1rem;
+    cursor: pointer;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.blogsParent {
+    width: 100%;
+    margin: 0rem;
+    padding: 4rem 0 0 0;
+    position: relative;
+    background-image: url('/assets/images/landingPage/web-bg-5.png') ;
+    background-position: 0 -50%;
+}
+
+.blogsParent .leftLogo {
+    position: absolute;
+    width: 4rem;
+    top: 2rem;
+    left: 0;
+}
+
+.blogsParent .rightLogo {
+    position: absolute;
+    width: 4rem;
+    top: 10rem;
+    right: 0;
+    transform: rotateY(180deg);
+}
+
+.blogsWrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.blogsPreHeader {
+    text-align: center;
+}
+
+.blogsPreHeader p {
+    font-size: 1rem;
+    color: #173f75;
+    font-weight: 500;
+}
+
+.blogsPreHeader h2 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #173f75;
+    margin-top: 0.5rem;
+}
+
+
+.blogsHeaderWrapper {
+    text-align: center;
+    padding: 3rem 0;
+    color: #173f75;
+}
+
+.blogsHeaderWrapper h2 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.blogsHeaderWrapper p {
+    font-size: 1rem;
+}
+
+.blogsCardsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.blogsCard {
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.blogsCardBanner {
+    position: relative;
+}
+
+.blogsCardBanner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blogsCardBanner p {
+    position: absolute;
+    color: #173f75;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    font-size: 12px;
+    background: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+}
+
+.blogsCardContent {
+    background: #173f75;
+    color: white;
+    padding: 1rem 2rem 1rem 2rem;
+    border-radius: 20px;
+    margin-top: 0.2rem;
+}
+
+.blogsCardContent h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.blogsCardContent p {
+    font-size: 13px;
+    padding: 0.8rem 0;
+}
+
+.blogsCardContent button {
+    padding: 0.6rem 1.5rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    position: relative;
+    bottom: -2rem;
+}
+
+
+}
+
+@media only screen and (min-width: 1441px) {
+}
+
+

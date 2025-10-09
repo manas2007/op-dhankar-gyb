@@ -1,0 +1,135 @@
+
+.emailBannerParent {
+    width: 100%;
+    margin: 0rem 0 4rem 0;
+    padding: 0;
+}
+
+.emailBannerWrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #173f75;
+    color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+
+.emailBannerLeftSection {
+    width: 60%;
+}
+
+.emailBannerLeftSection h3 {
+    font-size: 3.5rem;
+    font-weight: bolder;
+}
+
+.emailBannerLeftSection p {
+    font-size: 17px
+}
+
+.emailBannerRightSection {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    position: relative;
+}
+
+.emailBannerRightSection input {
+    width: 100%;
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10rem;
+    outline: none;
+} 
+
+.emailBannerRightSection button {
+    padding: 0.9rem 2rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 0;
+    bottom: -5rem;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 768px) {
+
+
+.emailBannerParent {
+    width: 100%;
+    margin: 2rem 0;
+    padding: 0;
+}
+
+.emailBannerWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #173f75;
+    color: white;
+    padding: 2rem 2rem 4rem 2rem;
+    border-radius: 20px;
+}
+
+.emailBannerLeftSection {
+    width: 100%;
+}
+
+.emailBannerLeftSection h3 {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    font-weight: bolder;
+}
+
+.emailBannerLeftSection p {
+    font-size: 1rem;
+    padding: 1rem 0
+}
+
+.emailBannerRightSection {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+}
+
+.emailBannerRightSection input {
+    width: 100%;
+    background: white;
+    color: black;
+    border: 1px solid white;
+    padding: 0.8rem 1.5rem;
+    border-radius: 10rem;
+} 
+
+.emailBannerRightSection button {
+    padding: 0.8rem 2rem;
+    background: #5193df;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.1rem;
+    position: absolute;
+    left: 0;
+    bottom: -5rem;
+}
+
+}
+
+@media only screen and (min-width: 1441px) {
+}

@@ -1,0 +1,275 @@
+
+.letsTalkParent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.letsTalkBannerWrapper {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fffea4 ;
+    border-radius: 10px 0 0 10px;
+}
+
+.letsTalkBanner {
+    width: 80%;
+    border-radius: 10px 0 0 10px;
+}
+
+.letsTalkForm {
+    width: 50%;
+    padding: 1.5rem;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+}
+
+.closeIcon {
+    background: #F6F9FE;
+    border: 1px solid #E8E8E8;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHeader {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.formHeader h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    padding-top: 1rem;
+}
+
+.formHeader p {
+    color: grey;
+    padding-top: 0.5rem;
+}
+
+.formFieldsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.formLeftField {
+    width: 48%;
+}
+
+.formRightField {
+    width: 48%;
+}
+
+.formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.formFooter button {
+    background: #1a56a5;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 12px;
+    min-width: 7rem;
+      box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+
+}
+
+.formSocials {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+/* Form Submission Success */
+.formSuccessWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 32rem;
+    min-height: 32rem;
+}
+
+.formSuccessUpperSection {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSuccessUpperContent {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.formSuccessLowerSection {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: #4D4BE4;
+    border-radius: 0 0 10px 10px;
+}
+
+.formSuccessLowerSection img {
+    width: 15rem;
+}
+
+.validationMessage {
+    font-size: 10px;
+    color: red;
+}
+
+.textFieldWrapper textarea {
+    resize: none;
+}
+
+/* Mobile */
+@media only screen and (max-width: 768px) {
+
+
+.letsTalkParent {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.letsTalkBanner {
+    width: 100%;
+    border-radius: 10px 0 0 10px;
+    display:none;
+}
+
+.letsTalkForm {
+    width: 100%;
+    padding: 1rem;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+}
+
+.closeIcon {
+    background: #F6F9FE;
+    border: 1px solid #E8E8E8;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formHeader {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.formHeader h3 {
+    font-weight: bolder;
+    font-size: 2rem;
+    line-height: 2.1rem;
+    padding-top: 0.3rem;
+}
+
+.formHeader p {
+    color: grey;
+    padding-top: 0.5rem;
+}
+
+.formFieldsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.formLeftField {
+    width: 48%;
+}
+
+.formRightField {
+    width: 48%;
+}
+
+.formFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+.formFooter button {
+    background: #ff00b1;
+    border-radius: 50px;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    font-size: 12px;
+}
+
+.formSocials {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+/* Form Success */
+
+.formSuccessWrapper {
+    height: 100%;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+}
+
+
+.formSuccessUpperSection {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formSuccessUpperContent {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.formSuccessLowerSection {
+    display: none;
+}
+
+
+
+}
+
+/* Desktop */
+@media only screen and (max-width: 1025px) and (min-width: 768px) {
+}
+
+/* Desktop */
+@media only screen and (min-width: 1441px) {
+}
