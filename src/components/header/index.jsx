@@ -4,18 +4,22 @@ import styles from "./headerStyles.module.css";
 import useCheckMobileScreen from "../global/useCheckMobileScreen";
 import TopicIcon from '@mui/icons-material/Topic';
 import { SwipeableDrawer } from "@mui/material";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 
 const Header = (props) => {
 
     const { template } = props;
-    const [showSocials, setShowSocials] = useState(false);
     const isMobile = useCheckMobileScreen();
     const router = useRouter();
-    const currentPath = router.asPath
+    const currentPath = router.asPath;
+    const [showSocials, setShowSocials] = useState(false);
     const [showSidebar, setShowSidebar] = useState(false);
+
+    useEffect(() => {
+        setShowSocials(isMobile ? false : true);
+    },[])
 
     const onSocialIconClick = (icon) => {
         if (icon == "FACEBOOK") {
