@@ -19,7 +19,7 @@ const Header = (props) => {
 
     useEffect(() => {
         setShowSocials(isMobile ? false : true);
-    },[])
+    },[isMobile])
 
     const onSocialIconClick = (icon) => {
         if (icon == "FACEBOOK") {
