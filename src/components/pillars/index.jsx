@@ -19,11 +19,13 @@ const Pillars = () => {
     const activeTabWidget = () => {
         if (activeTab == "LD") {
             return (<div className={styles.activeTabWrapper}>
-                <img src='/assets/images/landingPage/core-pillars.jpg' />
+                <img src='/assets/images/landingPage/personalityGrowth.jpeg' />
                 <div className={styles.activeTabContent}>
                     <h5>Leadership Development</h5>
                     <p>True leadership isn’t about authority — it’s about authenticity. Great leaders don’t just direct others; they inspire through example, empathy, and integrity.</p>
-                    <button onClick={onReadMoreClick}>Read More</button>
+                    <div className={styles.buttonWrapper}>
+                        <button onClick={onReadMoreClick}>Read More</button>
+                    </div>
                 </div>
             </div>)
         } else if (activeTab == "PG") {
@@ -32,17 +34,19 @@ const Pillars = () => {
                 <div className={styles.activeTabContent}>
                     <h5>Personality Growth</h5>
                     <p>Your personality grows not by imitation, but by introspection. It’s about discovering your strengths, refining your character, and embracing your uniqueness.</p>
-                    <button onClick={onReadMoreClick} >Read More</button>
-                </div>
+                    <div className={styles.buttonWrapper}>
+                        <button onClick={onReadMoreClick}>Read More</button>
+                    </div>                </div>
             </div>)
         } else if (activeTab == "SS") {
             return (<div className={styles.activeTabWrapper}>
-                <img src='/assets/images/landingPage/core-pillars.jpg' />
+                <img src='/assets/images/landingPage/spiritualSuccess.jpg' />
                 <div className={styles.activeTabContent}>
                     <h5>Spiritual Success</h5>
                     <p>Success of the soul is measured not in wealth, but in wisdom and peace. Spiritual success comes when your actions align with your values and your mind finds stillness in purpose.</p>
-                    <button onClick={onReadMoreClick} >Read More</button>
-                </div>
+                    <div className={styles.buttonWrapper}>
+                        <button onClick={onReadMoreClick}>Read More</button>
+                    </div>                </div>
             </div>)
         }
     }
@@ -59,7 +63,7 @@ const Pillars = () => {
             {/* Tabs */}
             <div className={styles.pillarsTabWrapper}>
                 {pillarsTabs.map((tab, index) => (
-                    <h6 style={activeTab == tab.id ? {color:"#1a56a5", borderBottom:"3px solid #1a56a5", fontWeight:"bold"} : {}} onClick={() => onTabClick(tab)} >{tab.tab}</h6>
+                    <h6 style={activeTab == tab.id ? { color: "#1a56a5", borderBottom: "3px solid #1a56a5", fontWeight: "bold" } : {}} onClick={() => onTabClick(tab)} >{tab.tab}</h6>
                 ))}
             </div>
 

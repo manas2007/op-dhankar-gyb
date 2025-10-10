@@ -32,7 +32,7 @@
   background: #5193df;
   color: white;
   border-radius: 30px;
-  font-size: 1.1rem;
+  font-size: 14px;
   position: absolute;
   bottom: -1.5rem;
   cursor: pointer;
@@ -94,7 +94,7 @@
     background: #5193df;
     color: white;
     border-radius: 30px;
-    font-size: 1.1rem;
+    font-size: 12px;
     position: absolute;
     bottom: -1.5rem;
     left: 50%;

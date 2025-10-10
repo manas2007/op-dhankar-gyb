@@ -20,8 +20,8 @@ const Blogs = () => {
 
             {/* Mantra */}
             <div className={styles.blogsPreHeader} >
-                <p>Matra that we must live by</p>
-                <h2>सर्वे भवन्तु सुखिनः: सर्वे सन्तु निरामयाः: । <br />
+                <p>Mantra that we must live by</p>
+                <h2>सर्वे भवन्तु सुखिन सर्वे सन्तु निरामया । <br />
                     सर्वे भद्राणि पश्यन्तु मा कश्चित् दुःखभाग्भवेत् ॥</h2>
             </div>
 
@@ -43,7 +43,9 @@ const Blogs = () => {
                         <div className={styles.blogsCardContent} >
                             <h4>{blog.title}</h4>
                             <p>{blog.description}</p>
-                            <button onClick={() => onBlogCardClick(blog)} >Read More</button>
+                            <div className={styles.buttonWrapper}>
+                                <button onClick={() => onBlogCardClick(blog)} >Read More</button>
+                            </div>
                         </div>
 
                     </div>))}

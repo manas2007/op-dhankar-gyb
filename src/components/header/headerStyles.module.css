@@ -41,6 +41,28 @@
     cursor: pointer;
 }
 
+.floatingWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    background: #1a56a5;
+    min-height: 2.5rem;
+    border-radius: 12px 0 0 12px;
+    padding: 0.5rem 0.2rem;
+    z-index: 10000000;
+    cursor: pointer;
+}
+
+.floatingWrapper img {
+    width: 1.9rem;
+    margin-bottom: 0.2rem;
+    
+}
+
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
 }
@@ -84,6 +106,10 @@
     margin-left: 2rem;
     font-weight: 500;
     font-size: 1.1rem;
+}
+
+.floatingWrapper {
+    opacity: 0.9;
 }
 
 

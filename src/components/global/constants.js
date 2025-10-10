@@ -1,7 +1,7 @@
 import { createTheme } from "@mui/material";
 
 
-export const headerTabs = [{name:"About",route:"/about-us"}, {name:"Blogs",route:"/blogs"}];
+export const headerTabs = [{name:"Home",route:"/"},{name:"About",route:"/about-us"}, {name:"Blogs",route:"/blogs"}];
 
 export const headerMobileTabs = [{name:"Home",route:"/"},{name:"About",route:"/about-us"}, {name:"Blogs",route:"/blogs"}];
 
@@ -27,12 +27,12 @@ export const pillarsTabs = [
         tab:"Leadership Development",
     },
     {
-        id:"PG",
-        tab:"Personality Growth",
-    },
-    {
         id:"SS",
         tab:"Spiritual Success",
+    },
+    {
+        id:"PG",
+        tab:"Personality Growth",
     }
 ]
 
@@ -87,7 +87,7 @@ export const highlights = [
         template:"VIDEO",
         title:"The Green Tree Spirit: Overcoming Setbacks with Creative Resiliance",
         description:"",
-        tag:"",
+        tag:"Youtube",
         image:"/assets/images/landingPage/updates-2.jpg",
         button:"Watch More",
         link:"https://www.youtube.com/watch?v=VO4dsjrkV7A"
@@ -105,7 +105,7 @@ export const highlights = [
         template:"VIDEO",
         title:"The Soul Is Free — Poem by O.P. Dhankhar",
         description:"",
-        tag:"",
+        tag:"Youtube",
         image:"/assets/images/landingPage/media-3.jpg",
         button:"Read More",
         link:"https://www.youtube.com/watch?v=FLK1yGamxlU"
@@ -114,7 +114,7 @@ export const highlights = [
         template:"NEWS",
         title:"Sri OP Dhankar presenting a copy of “Give Your Best” to former President of India 🇮🇳",
         description:"Citing Buddha’s middle path as the way to achieve equilibrium, Om Prakash Dhankar notes that Perfection is not found at extremes but in the middle",
-        tag:"The Indian Express",
+        tag:"Instagram",
         image:"/assets/images/landingPage/media/highlight-3.jpg",
         button:"Read More",
         link:"https://www.instagram.com/p/DOXqYEjEmoH/?img_index=1"
@@ -123,7 +123,7 @@ export const highlights = [
         template:"VIDEO",
         title:"What’s Your Jeevan Mantra? | O.P. Dhankhar ",
         description:"",
-        tag:"",
+        tag:"Youtube",
         image:"/assets/images/landingPage/media/highlight-7.png",
         button:"Read More",
         link:"https://www.youtube.com/watch?v=qP4mbdP5kv4"

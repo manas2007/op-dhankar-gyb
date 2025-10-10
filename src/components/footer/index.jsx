@@ -5,6 +5,7 @@ import styles from "./footerStyles.module.css";
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+import XIcon from '@mui/icons-material/X';
 import Loader from "../global/loader";
 import { useRouter } from "next/router";
 import { Alert, Snackbar } from "@mui/material";
@@ -23,11 +24,13 @@ const Footer = () => {
 
     const onSocialIconClick = (icon) => {
         if (icon == "FACEBOOK") {
-            window.open("https://www.google.com/");
+            window.open("https://www.facebook.com/giveyourbestofficial");
         } else if (icon == "INSTAGRAM") {
-            window.open("");
+            window.open("https://www.instagram.com/giveyourbestofficial/");
         } else if (icon == "YOUTUBE") {
-            window.open("");
+            window.open("https://www.youtube.com/@giveyourbest-yoursuccessguide");
+        } else if(icon == "X") {
+            window.open("https://x.com/give_your_best_");
         }
     }
 
@@ -130,9 +133,10 @@ const Footer = () => {
             <div className={styles.footerLowerSection}>
                 <p>Copyright 2025@giveyourbest</p>
                 <div className={styles.footerSocialsWrapper}>
-                    <FacebookIcon onClick={() => onSocialIconClick("FACEBOOK")} sx={{ margin: "0 0.5rem", color: "#173f75" }} />
-                    <YouTubeIcon sx={{ margin: "0 0.5rem", color: "#173f75" }} />
-                    <InstagramIcon sx={{ margin: "0 0.5rem", color: "#173f75" }} />
+                    <FacebookIcon onClick={() => onSocialIconClick("FACEBOOK")} sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
+                    <YouTubeIcon onClick={() => onSocialIconClick("YOUTUBE")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
+                    <InstagramIcon onClick={() => onSocialIconClick("INSTAGRAM")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
+                    <XIcon onClick={() => onSocialIconClick("X")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
                 </div>
             </div>
 

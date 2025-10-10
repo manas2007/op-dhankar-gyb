@@ -1,9 +1,6 @@
-import { LinearProgress } from '@mui/material';
 import { mediaLibrary } from '../global/constants';
 import styles from './mediaStyles.module.css';
 import { useState } from 'react';
-import KeyboardArrowLeftIcon from '@mui/icons-material/KeyboardArrowLeft';
-import KeyboardArrowRightIcon from '@mui/icons-material/KeyboardArrowRight';
 
 const Media = () => {
 
@@ -20,7 +17,10 @@ const Media = () => {
                 <p>A collection of talks and
                     insights to guide your
                     growth and success.</p>
+                <div className={styles.buttonWrapper}>
                 <button onClick={onButtonClick}>Watch More</button>
+
+                </div>
             </div>
             {/* Videos */}
             <div className={styles.mediaCarouselWrapper} >

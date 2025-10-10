@@ -15,9 +15,9 @@ const HeroSection = () => {
         <div className={styles.heroSectionWrapper}>
             <div>
                 <h1>Give Your Best <br/> Take Others Best</h1>
-                <p>A universal philosophy for growth, leadership, and success,<br/>
-                    rooted in Indian values, designed for today’s world.</p>
-                <button onClick={handleButtonClick} >Explore the Philosophy</button>
+                <p>A way of seeing life that inspires growth, leadership,<br/>
+                    and balance in today’s world.</p>
+                <button onClick={handleButtonClick} >Begin Your Journey</button>
             </div>
         </div>
     </div>);

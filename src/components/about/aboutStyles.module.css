@@ -123,7 +123,7 @@
 .aboutWrapper {
     width: 90%;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 2rem 0 0 0;
 }
 
 .aboutBannerWrapper {
@@ -151,13 +151,14 @@
 .aboutBannerWrapper button {
     position: absolute;
     bottom: -1rem;
-    left: 8%;
+    left: unset;
+    right: 8%;
     background: #5193df;
     color: white;
     padding: 0.7rem 1.5rem;
     border-radius: 50px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
 } 
 
 .aboutBannerHeading {

@@ -155,12 +155,17 @@
     line-height: 1.5rem;
   }
 
+  .buttonWrapper {
+    display: flex;
+    justify-content: end;
+  }
+
   .bookSectionContent button {
     padding: 0.8rem 2rem;
     background: #5193df;
     color: white;
     border-radius: 30px;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 

@@ -2,7 +2,6 @@ import styles from './bookStyles.module.css';
 
 const Book = () => {
 
-    
     const onButtonClick = () => {
         window.open("https://amzn.in/d/bJXCgVw");
     }
@@ -22,7 +21,9 @@ const Book = () => {
                 <p>Give Your Best – Take Others’ Best is the first step in an
                     ever-growing body of work that transforms timeless
                     wisdom into practical guidance for today’s achievers.</p>
-                <button onClick={onButtonClick}>Buy on Amazon</button>
+                <div className={styles.buttonWrapper}>
+                    <button onClick={onButtonClick}>Buy on Amazon</button>
+                </div>
             </div>
         </div>
     </div>);

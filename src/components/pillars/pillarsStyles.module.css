@@ -171,13 +171,18 @@
     font-weight: 500;
   }
 
+  .buttonWrapper {
+    display: flex;
+    justify-content: end;
+  }
+
   .activeTabContent button {
     background: #5193df;
     color: white;
     padding: 0.7rem 1.8rem;
     border-radius: 50px;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
