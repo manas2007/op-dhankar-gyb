@@ -14,7 +14,7 @@ const HeroSection = () => {
         <Header template="BACKGROUND" />
         <div className={styles.heroSectionWrapper}>
             <div>
-                <h1>Give Your Best <br/> Take Others Best</h1>
+                <h1>Give Your Best <br/> Take Other’s Best</h1>
                 <p>A way of seeing life that inspires growth, leadership,<br/>
                     and balance in today’s world.</p>
                 <button onClick={handleButtonClick} >Begin Your Journey</button>

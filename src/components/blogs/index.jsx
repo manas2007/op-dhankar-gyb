@@ -21,7 +21,7 @@ const Blogs = () => {
             {/* Mantra */}
             <div className={styles.blogsPreHeader} >
                 <p>Mantra that we must live by</p>
-                <h2>सर्वे भवन्तु सुखिन सर्वे सन्तु निरामया । <br />
+                <h2>सर्वे भवन्तु सुखिन: सर्वे सन्तु निरामया: । <br />
                     सर्वे भद्राणि पश्यन्तु मा कश्चित् दुःखभाग्भवेत् ॥</h2>
             </div>
 

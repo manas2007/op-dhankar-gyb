@@ -47,7 +47,7 @@ const Header = (props) => {
     }
 
     return (<div className={styles.headerParent}>
-        <div className={styles.headerWrapper}>
+    <div className={styles.headerWrapper}>
 
             <div onClick={onLogoClick} className={styles.logoWrapper}>
                 <img src={template == "SOLID" ? "/assets/images/logo.png" : "/assets/images/logo-white.png"} alt="Logo" />

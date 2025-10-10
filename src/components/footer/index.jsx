@@ -120,7 +120,7 @@ const Footer = () => {
                 <div className={styles.emailBannerWrapper} >
                     <div className={styles.emailBannerLeftSection} >
                         <h3>Join Our Community</h3>
-                        <p>Only Insights on Give Your Best way. No spam</p>
+                        <p>Join a community of like minded people discovering new ways to grow, learn, and live with purpose.</p>
                     </div>
                     <div className={styles.emailBannerRightSection} >
                         <input onChange={(e) => handleEmailChange(e)} placeholder="Enter your email address..." />
