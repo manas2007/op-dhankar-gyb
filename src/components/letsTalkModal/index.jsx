@@ -128,7 +128,7 @@ const LetsTalkModal = (props) => {
     return (
         <div className="relative">
             <div className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none">
-                <div className={`my-6 mx-auto max-w-5xl bg-white h-fit rounded-[10px] min-h-[] relative ${isMobile ? 'w-[95%] h-fit' : 'w-[65rem]'}`}>
+                <div className={`my-6 mx-auto max-w-5xl bg-white h-fit rounded-[10px] min-h-[] relative ${isMobile ? 'w-[95%] h-fit' : 'w-[40rem]'}`}>
                     {isFormSubmitted ? (
                         <div className={`${styles.formSuccessWrapper}`}>
                             <div className={`${styles.formSuccessUpperSection}`}>

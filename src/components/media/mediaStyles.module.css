@@ -149,7 +149,7 @@
 
 .buttonWrapper {
     display: flex;
-    justify-content: end;
+    justify-content: start;
 }
 
 .mediaContentWrapper button {

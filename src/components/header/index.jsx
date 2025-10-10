@@ -13,9 +13,9 @@ const Header = (props) => {
     const { template } = props;
     const [showSocials, setShowSocials] = useState(false);
     const isMobile = useCheckMobileScreen();
-    const [showSidebar, setShowSidebar] = useState(false);
-
     const router = useRouter();
+    const currentPath = router.asPath
+    const [showSidebar, setShowSidebar] = useState(false);
 
     const onSocialIconClick = (icon) => {
         if (icon == "FACEBOOK") {
@@ -55,7 +55,7 @@ const Header = (props) => {
             </div>
             <div className={styles.headerTabsWrapper}>
                 {headerTabs.map((tab, index) => (
-                    <h4 onClick={() => onTabClick(tab)} style={template == "SOLID" ? { color: "#1a56a5" } : { color: "white" }} key={index}>{tab.name}</h4>
+                    <h4 onClick={() => onTabClick(tab)} style={template == "SOLID" ? { color: "#1a56a5", borderBottom: currentPath == tab.route ? "2px solid white" : "", borderRadius:"1px" } : { color: "white", borderBottom: currentPath == tab.route ? "2px solid #1a56a5" : "", borderRadius:"1px" }} key={index}>{tab.name}</h4>
                 ))}
             </div>
             {isMobile ? <TopicIcon onClick={() => setShowSidebar(true)} sx={template == "SOLID" ? { color: "#1a56a5" } : { color: "white" }} /> : <></>}
@@ -74,8 +74,8 @@ const Header = (props) => {
                     </div>
                     {/* Tabs */}
                     <div className="flex-col pt-[]">
-                        {headerMobileTabs.map((tab, index) => (
-                            <h4 onClick={() => onTabClick(tab)} style={{ color: "white", padding: "0.5rem 1rem", borderBottom: "0.5px solid white" }} key={index}>{tab.name}</h4>
+                        {headerTabs.map((tab, index) => (
+                            <h4 onClick={() => onTabClick(tab)} style={{ borderLeft: currentPath == tab.route ? "4.5px solid white" : "",  color:"white", padding: "0.5rem 1rem", borderBottom: "0.5px solid white" }} key={index}>{tab.name}</h4>
                         ))}
                     </div>
                 </div>

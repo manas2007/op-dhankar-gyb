@@ -5,7 +5,8 @@
 }
 
 .letsTalkBannerWrapper {
-    width: 50%;
+    width: 0%;
+    display: none;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +20,7 @@
 }
 
 .letsTalkForm {
-    width: 50%;
+    width: 100%;
     padding: 1.5rem;
     position: relative;
     border-radius: 0 10px 10px 0;
