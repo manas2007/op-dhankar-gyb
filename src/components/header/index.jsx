@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import { headerMobileTabs, headerTabs } from "../global/constants";
+import { headerTabs } from "../global/constants";
 import styles from "./headerStyles.module.css";
 import useCheckMobileScreen from "../global/useCheckMobileScreen";
 import TopicIcon from '@mui/icons-material/Topic';
