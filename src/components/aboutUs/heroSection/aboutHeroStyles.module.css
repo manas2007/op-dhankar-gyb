@@ -29,6 +29,28 @@
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+    .aboutHeroSectionParent {
+  width: 100%;
+  height: 60vh;
+  background-image: url("/assets/images/blogs/clouds.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 0rem 0 1rem 0;
+}
+
+.aboutHeroSectionWrapper {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+
 }
 
 @media only screen and (max-width: 768px) {

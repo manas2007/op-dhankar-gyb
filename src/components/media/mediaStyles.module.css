@@ -106,6 +106,29 @@
 
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+
+.mediaParent {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 4rem 0;
+}
+
+.mediaWrapper {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-left: 0;
+}
+
+
+.mediaCarouselWrapper {
+    width: 70%;
+}
+
 }
 
 @media only screen and (max-width: 768px) {

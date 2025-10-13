@@ -172,6 +172,22 @@
 
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+    .highlightsParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #173f75;
+}
+
+.highlightsWrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 4rem 0; 
+}
+
+
+
 }
 
 @media only screen and (max-width: 768px) {

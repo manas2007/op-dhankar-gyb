@@ -49,6 +49,26 @@
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+    .manBehindParent {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-image: url("/assets/images/landingPage/web-bg-4.png");
+  background-position: center;
+  background-position: 0% 40%;
+}
+
+.manBehindWrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding: 6rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
 }
 
 @media only screen and (max-width: 768px) {

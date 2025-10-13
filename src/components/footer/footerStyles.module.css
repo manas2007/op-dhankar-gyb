@@ -129,6 +129,21 @@
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+
+.footerParent {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.footerWrapper {
+    width: 95%;
+    margin: 0 auto;
+    padding: 4rem 0 2rem 0;
+}
+
+
 }
 
 @media only screen and (max-width: 768px) {

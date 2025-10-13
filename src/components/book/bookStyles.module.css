@@ -82,6 +82,24 @@
 }
 
 @media only screen and (max-width: 1025px) and (min-width: 768px) {
+
+  .bookSectionParent {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bookSectionWrapper {
+  width: 95%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+
 }
 
 @media only screen and (max-width: 768px) {
