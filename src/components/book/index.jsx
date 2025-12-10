@@ -9,9 +9,9 @@ const Book = () => {
     return (<div className={styles.bookParent}>
         <div className={styles.bookSectionWrapper}>
             <div className={styles.bookSectionImage}>
-                <img className={styles.bookImage} src='/assets/images/landingPage/book-moccup.png' />
-                <img className={styles.line1} src="/assets/images/landingPage/Line-1.png" />
-                <img className={styles.line2} src="/assets/images/landingPage/Line-2.png" />
+                <img className={styles.bookImage} src='/assets/images/landingPage/book-moccup.png' alt='Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others | Om Prakash Dhankar' />
+                <img className={styles.line1} src="/assets/images/landingPage/Line-1.png" alt='Shreshtha Ki Abhivyakti Ho | Give Your Best | BG-Line-1' />
+                <img className={styles.line2} src="/assets/images/landingPage/Line-2.png" alt='Shreshtha Ki Abhivyakti Ho | Give Your Best | BG-Line-2' />
             </div>
             <div className={styles.bookSectionContent}>
                 <div className={styles.bookSectionHeading}>

@@ -23,8 +23,8 @@ const WhatIf = () => {
 
         </div>
 
-        <img className={styles.leftLogo} src="/assets/images/logo.png" />
-        <img className={styles.rightLogo} src="/assets/images/logo.png" />
+        <img alt="Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others' Best Logo | Om Prakash Dhankar" className={styles.leftLogo} src="/assets/images/logo.png" />
+        <img alt="Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others' Best Logo | Om Prakash Dhankar" className={styles.rightLogo} src="/assets/images/logo.png" />
 
     </div>)
 }

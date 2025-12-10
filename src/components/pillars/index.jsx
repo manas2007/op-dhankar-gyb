@@ -19,7 +19,7 @@ const Pillars = () => {
     const activeTabWidget = () => {
         if (activeTab == "LD") {
             return (<div className={styles.activeTabWrapper}>
-                <img src='/assets/images/landingPage/personalityGrowth.jpeg' />
+                <img src='/assets/images/landingPage/personalityGrowth.jpeg' alt='Shreshtha Ki Abhivyakti Ho | Leadership Development | Om Prakash Dhankar' />
                 <div className={styles.activeTabContent}>
                     <h5>Leadership Development</h5>
                     <p>True leadership isn’t about authority — it’s about authenticity. Great leaders don’t just direct others; they inspire through example, empathy, and integrity.</p>
@@ -30,7 +30,7 @@ const Pillars = () => {
             </div>)
         } else if (activeTab == "PG") {
             return (<div className={styles.activeTabWrapper}>
-                <img src='/assets/images/landingPage/core-pillars.jpg' />
+                <img src='/assets/images/landingPage/core-pillars.jpg' alt='Shreshtha Ki Abhivyakti Ho | Personality Growth | Om Prakash Dhankar' />
                 <div className={styles.activeTabContent}>
                     <h5>Personality Growth</h5>
                     <p>Your personality grows not by imitation, but by introspection. It’s about discovering your strengths, refining your character, and embracing your uniqueness.</p>
@@ -40,7 +40,7 @@ const Pillars = () => {
             </div>)
         } else if (activeTab == "SS") {
             return (<div className={styles.activeTabWrapper}>
-                <img src='/assets/images/landingPage/spiritualSuccess.jpg' />
+                <img src='/assets/images/landingPage/spiritualSuccess.jpg' alt='Shreshtha Ki Abhivyakti Ho | Spiritual Success | Om Prakash Dhankar' />
                 <div className={styles.activeTabContent}>
                     <h5>Spiritual Success</h5>
                     <p>Success of the soul is measured not in wealth, but in wisdom and peace. Spiritual success comes when your actions align with your values and your mind finds stillness in purpose.</p>
@@ -63,15 +63,13 @@ const Pillars = () => {
             {/* Tabs */}
             <div className={styles.pillarsTabWrapper}>
                 {pillarsTabs.map((tab, index) => (
-                    <h6 style={activeTab == tab.id ? { color: "#1a56a5", borderBottom: "3px solid #1a56a5", fontWeight: "bold" } : {}} onClick={() => onTabClick(tab)} >{tab.tab}</h6>
+                    <h6 key={`PILLARS_TABS_${index+1}`} style={activeTab == tab.id ? { color: "#1a56a5", borderBottom: "3px solid #1a56a5", fontWeight: "bold" } : {}} onClick={() => onTabClick(tab)} >{tab.tab}</h6>
                 ))}
             </div>
 
             <div>
                 {activeTabWidget()}
             </div>
-
-
         </div>
     </div>);
 

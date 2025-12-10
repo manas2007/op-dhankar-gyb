@@ -26,15 +26,15 @@ const About = (props) => {
                         universal philosophy for personal growth and
                         collaborative success.</p>
                 </div>
-                <img src='/assets/images/landingPage/the-man-1.jpg' />
+                <img src='/assets/images/landingPage/the-man-1.jpg' alt='Om Prakash Dhankar' />
                 <button onClick={handleContactUs}>Contact</button>
             </div>
 
             {/* Cards */}
             <div className={styles.aboutCardsWrapper}>
                 {aboutCards.map((card, index) => (
-                    <div className={styles.aboutCard} style={{ margin: (index == 1 && !isMobile) ? "0.5rem" : "" }} key={index}>
-                        <img src={card.image} alt={card.title} />
+                    <div className={styles.aboutCard} style={{ margin: (index == 1 && !isMobile) ? "0.5rem" : "" }} key={`ABOUT_CARDS_${index+1}`}>
+                        <img src={card.image} alt={card.altText} />
                         <h3>{card.title}</h3>
                     </div>
                 ))}

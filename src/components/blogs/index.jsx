@@ -4,7 +4,6 @@ import styles from './blogStyles.module.css';
 
 const Blogs = () => {
 
-
     const router = useRouter();
 
     const onBlogCardClick = (blog) => {
@@ -13,7 +12,7 @@ const Blogs = () => {
 
     return (<div className={styles.blogsParent} >
         {/* Logo */}
-        <img className={styles.leftLogo} src="/assets/images/logo.png" />
+        <img className={styles.leftLogo} src="/assets/images/logo.png"  />
         <img className={styles.rightLogo} src="/assets/images/logo.png" />
 
         <div className={styles.blogsWrapper} >
@@ -33,10 +32,10 @@ const Blogs = () => {
                 </div>
 
                 <div className={styles.blogsCardsWrapper} >
-                    {blogs.map((blog, index) => (<div onClick={() => onBlogCardClick(blog)} className={styles.blogsCard} key={index}>
+                    {blogs.map((blog, index) => (<div onClick={() => onBlogCardClick(blog)} className={styles.blogsCard} key={`BLOGS_${index+1}`}>
 
                         <div className={styles.blogsCardBanner} >
-                            <img src={blog.image} />
+                            <img src={blog.image} alt={blog.altText} />
                             <p>{blog.date}</p>
                         </div>
 

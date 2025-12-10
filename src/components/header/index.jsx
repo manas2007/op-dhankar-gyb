@@ -54,12 +54,12 @@ const Header = (props) => {
     <div className={styles.headerWrapper}>
 
             <div onClick={onLogoClick} className={styles.logoWrapper}>
-                <img src={template == "SOLID" ? "/assets/images/logo.png" : "/assets/images/logo-white.png"} alt="Logo" />
+                <img src={template == "SOLID" ? "/assets/images/logo.png" : "/assets/images/logo-white.png"} alt="Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others' Best Logo | Om Prakash Dhankar" />
                 <h4 style={template == "SOLID" ? { color: "#1a56a5" } : { color: "white" }}>Give Your Best</h4>
             </div>
             <div className={styles.headerTabsWrapper}>
                 {headerTabs.map((tab, index) => (
-                    <h4 onClick={() => onTabClick(tab)} style={template == "SOLID" ? { color: "#1a56a5", borderBottom: currentPath == tab.route ? "2px solid white" : "", borderRadius:"1px" } : { color: "white", borderBottom: currentPath == tab.route ? "2px solid #1a56a5" : "", borderRadius:"1px" }} key={index}>{tab.name}</h4>
+                    <h4  onClick={() => onTabClick(tab)} style={template == "SOLID" ? { color: "#1a56a5", borderBottom: currentPath == tab.route ? "2px solid white" : "", borderRadius:"1px" } : { color: "white", borderBottom: currentPath == tab.route ? "2px solid #1a56a5" : "", borderRadius:"1px" }} key={`HEADER_TABS_${index+1}`}>{tab.name}</h4>
                 ))}
             </div>
             {isMobile ? <TopicIcon onClick={() => setShowSidebar(true)} sx={template == "SOLID" ? { color: "#1a56a5" } : { color: "white" }} /> : <></>}
@@ -73,13 +73,13 @@ const Header = (props) => {
             >
                 <div className="w-[18rem] bg-[#173f75] h-full text-[white]">
                     <div style={{ padding: "0.8rem 0.5rem", borderBottom: "1px solid lightgrey" }} onClick={onLogoClick} className={styles.logoWrapper}>
-                        <img src="/assets/images/logo-white.png" alt="Logo" />
+                        <img src="/assets/images/logo-white.png" alt="Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others' Best Logo | Om Prakash Dhankar" />
                         <h4 style={{ color: "white" }}>Give Your Best</h4>
                     </div>
                     {/* Tabs */}
                     <div className="flex-col pt-[]">
                         {headerTabs.map((tab, index) => (
-                            <h4 onClick={() => onTabClick(tab)} style={{ borderLeft: currentPath == tab.route ? "4.5px solid white" : "",  color:"white", padding: "0.5rem 1rem", borderBottom: "0.5px solid white" }} key={index}>{tab.name}</h4>
+                            <h4 onClick={() => onTabClick(tab)} style={{ borderLeft: currentPath == tab.route ? "4.5px solid white" : "",  color:"white", padding: "0.5rem 1rem", borderBottom: "0.5px solid white" }} key={`HEADER_TABS_MOBILE_${index+1}`}>{tab.name}</h4>
                         ))}
                     </div>
                 </div>
@@ -90,10 +90,10 @@ const Header = (props) => {
                 {showSocials ? <div className="flex flex-col-reverse p-[0.1rem] justify-center items-center">
                     <NavigateNextIcon onClick={handleRightArrowClick} sx={{ color: "white" }} />
                     <div>
-                        <a href=""><img onClick={() => onSocialIconClick("FACEBOOK")} src="/assets/images/aboutUs/SVG/Facebook-2.svg" /></a>
-                        <a href="" ><img onClick={() => onSocialIconClick("INSTAGRAM")} src="/assets/images/aboutUs/SVG/Insta-2.svg" /></a>
-                        <a href="" ><img onClick={() => onSocialIconClick("YOUTUBE")} src="/assets/images/aboutUs/SVG/YouTube-2.svg" /></a>
-                        <a href=""><img onClick={() => onSocialIconClick("X")} src="/assets/images/aboutUs/SVG/X-2.svg" /></a>
+                        <a href=""><img alt="Om Prakash Dhankar | GiveYourBest | Facebook" onClick={() => onSocialIconClick("FACEBOOK")} src="/assets/images/aboutUs/SVG/Facebook-2.svg" /></a>
+                        <a href="" ><img alt="Om Prakash Dhankar | GiveYourBest | Instagram" onClick={() => onSocialIconClick("INSTAGRAM")} src="/assets/images/aboutUs/SVG/Insta-2.svg" /></a>
+                        <a href="" ><img alt="Om Prakash Dhankar | GiveYourBest | Youtube" onClick={() => onSocialIconClick("YOUTUBE")} src="/assets/images/aboutUs/SVG/YouTube-2.svg" /></a>
+                        <a href=""><img alt="Om Prakash Dhankar | GiveYourBest | X" onClick={() => onSocialIconClick("X")} src="/assets/images/aboutUs/SVG/X-2.svg" /></a>
                     </div>
 
                 </div> : <div onClick={handleLeftArrowClick} className="pl-[0.5rem] cursor-pointer"><ArrowBackIosIcon sx={{ color: "white", width: isMobile ? "0.7rem" : "1rem" }} /></div>}

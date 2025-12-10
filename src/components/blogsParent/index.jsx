@@ -29,10 +29,10 @@ const BlogsParent = () => {
         {/* Blogs List */}
         <div className={styles.blogsMainWrapper} >
             <div className={styles.blogsCardsWrapper} >
-                {blogs.map((blog, index) => (<div onClick={() => onBlogCardClick(blog)} className={styles.blogsCard} key={index}>
+                {blogs.map((blog, index) => (<div onClick={() => onBlogCardClick(blog)} className={styles.blogsCard} key={`ABOUT_PARENT_${index+1}`}>
 
                     <div className={styles.blogsCardBanner} >
-                        <img src={blog.image} />
+                        <img src={blog.image} alt={blog.altText} />
                         <p>{blog.date}</p>
                     </div>
 

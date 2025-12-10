@@ -52,12 +52,12 @@ const Footer = () => {
             const records = await base("Contact Form").create([
                 {
                     fields: {
-                        Name: "NAME",
+                        Name: "NAME | GYB",
                         Email: email,
-                        Phone: "NUMBER",
-                        Service: "SERVICE",
-                        Company: "COMPANY",
-                        Message: "MESSAGE",
+                        Phone: "NUMBER | GYB",
+                        Service: "SERVICE | GYB",
+                        Company: "COMPANY | GYB",
+                        Message: "MESSAGE | GYB",
                     },
                 },
             ]);
@@ -106,13 +106,13 @@ const Footer = () => {
 
                 <div className={styles.footerContentWrapper} >
                     <div className={styles.footerContentUpper}>
-                        <img src="/assets/images/logo.png" />
+                        <img src="/assets/images/logo.png" alt="Shreshtha Ki Abhivyakti Ho | Give Your Best, Take Others' Best Logo | Om Prakash Dhankar" />
                         <h4>Give Your Best</h4>
                     </div>
 
                     <div className={styles.footerNavigationWrapper}>
                         {footer.map((item, index) => (
-                            <p key={index} onClick={() => onFooterClick(item.route)}>{item.title}</p>
+                            <p key={`FOOTER_${index+1}`} onClick={() => onFooterClick(item.route)}>{item.title}</p>
                         ))}
                     </div>
                 </div>
@@ -133,7 +133,7 @@ const Footer = () => {
             <div className={styles.footerLowerSection}>
                 <p>Copyright 2025@giveyourbest</p>
                 <div className={styles.footerSocialsWrapper}>
-                    <FacebookIcon onClick={() => onSocialIconClick("FACEBOOK")} sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
+                    <FacebookIcon  onClick={() => onSocialIconClick("FACEBOOK")} sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
                     <YouTubeIcon onClick={() => onSocialIconClick("YOUTUBE")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
                     <InstagramIcon onClick={() => onSocialIconClick("INSTAGRAM")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />
                     <XIcon onClick={() => onSocialIconClick("X")}  sx={{ margin: "0 0.5rem", color: "#173f75",cursor:"pointer" }} />

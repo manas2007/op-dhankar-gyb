@@ -4,7 +4,7 @@ const ManBehindPhilosophy = () => {
     return (<div className={styles.manBehindParent}>
         <div className={styles.manBehindWrapper}>
 
-            <img src="/assets/images/aboutUs/man-Behind-the.png" />
+            <img alt="Om Prakash Dhankar - GiveYourBest | Narendra Modi" src="/assets/images/aboutUs/man-Behind-the.png" />
             <div className={styles.manBehindContentWrapper}>
 
                 <div className={styles.manBehindHeaderWrapper}>

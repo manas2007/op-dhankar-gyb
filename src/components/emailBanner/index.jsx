@@ -28,7 +28,6 @@ const EmailBanner = () => {
                 <p>Only Insights on Give Your Best way. No spam</p>
             </div>
             <div className={styles.emailBannerRightSection} >
-                {/* <input onChange={(e) => handleEmailChange(e)} placeholder="Enter your email address..." /> */}
                 <button onClick={handleSubmit} >{isLoading ? <Loader size="12px" color="white" /> : "Subscribe"}</button>
             </div>
         </div>

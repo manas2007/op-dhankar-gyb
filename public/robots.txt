@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /about-us
+Allow: /blogs
+Allow: /blog/personal-growth-discover-yourself
+Allow: /blog/personal-development-goals-that-last
+Allow: /blog/mindfulness-not-multitasking
+
+Sitemap: https://www.giveyourbest.in/sitemap.xml

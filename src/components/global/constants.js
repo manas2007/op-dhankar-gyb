@@ -9,15 +9,18 @@ export const headerMobileTabs = [{name:"Home",route:"/"},{name:"About",route:"/a
 export const aboutCards = [
     {
         title:"Life Coach & Motivational Speaker",
-        image:"/assets/images/landingPage/the-man-2.jpg"
+        image:"/assets/images/landingPage/the-man-2.jpg",
+        altText:"Om Prakash Dhankar | Life Coach & Motivational Speaker"
     },
     {
         title:"Educator & Cultural Advocate",
-        image:"/assets/images/landingPage/the-man-3.jpg"
+        image:"/assets/images/landingPage/the-man-3.jpg",
+        altText:"Om Prakash Dhankar | Educator & Cultural Advocate"
     },
     {
         title:"Social Reformer with decades of public life experience",
-        image:"/assets/images/landingPage/the-man-4.jpg"
+        image:"/assets/images/landingPage/the-man-4.jpg",
+        altText:"Om Prakash Dhankar | Social Reformer"
     }
 ]
 
@@ -40,35 +43,43 @@ export const pillarsTabs = [
 export const mediaLibrary = [
     {
         reel:"/assets/images/landingPage/media-1.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 1"
     },
     {
         reel:"/assets/images/landingPage/media-2.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 2"
     },
     {
         reel:"/assets/images/landingPage/media-3.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 3"
     },
     {
         reel:"/assets/images/landingPage/media-4.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 4"
     },
     {
         reel:"/assets/images/landingPage/media-1.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 1"
     },
     {
         reel:"/assets/images/landingPage/media-2.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 2"
     },
     {
         reel:"/assets/images/landingPage/media-3.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 3"
     },
     {
         reel:"/assets/images/landingPage/media-4.jpg",
-        id:""
+        id:"",
+        altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 4"
     }
 ];
 
@@ -81,7 +92,8 @@ export const highlights = [
         tag:"Facebook",
         image:"/assets/images/landingPage/media/highlight-4.jpg",
         button:"Read More",
-        link:"https://www.facebook.com/giveyourbestofficial"
+        link:"https://www.facebook.com/giveyourbestofficial",
+        altText:"Om Prakash Dhankar | GiveYourBest | Facebook Post"
     },
     {
         template:"VIDEO",
@@ -90,7 +102,8 @@ export const highlights = [
         tag:"Youtube",
         image:"/assets/images/landingPage/updates-2.jpg",
         button:"Watch More",
-        link:"https://www.youtube.com/watch?v=VO4dsjrkV7A"
+        link:"https://www.youtube.com/watch?v=VO4dsjrkV7A",
+        altText:"Om Prakash Dhankar | GiveYourBest | Youtube Video"
     },
     {
         template:"NEWS",
@@ -99,7 +112,8 @@ export const highlights = [
         tag:"Instagram",
         image:"/assets/images/landingPage/media/highlight-1-org.jpeg",
         button:"Read More",
-        link:"https://www.instagram.com/p/DPEG-zMkv6u/?img_index=1"
+        link:"https://www.instagram.com/p/DPEG-zMkv6u/?img_index=1",
+        altText:"Om Prakash Dhankar | GiveYourBest | Shri Rajnath Singh ji | Instagram Post"
     },
     {
         template:"VIDEO",
@@ -108,7 +122,8 @@ export const highlights = [
         tag:"Youtube",
         image:"/assets/images/landingPage/media-3.jpg",
         button:"Read More",
-        link:"https://www.youtube.com/watch?v=FLK1yGamxlU"
+        link:"https://www.youtube.com/watch?v=FLK1yGamxlU",
+        altText:"Om Prakash Dhankar | GiveYourBest | Youtube Video"
     },
     {
         template:"NEWS",
@@ -117,7 +132,8 @@ export const highlights = [
         tag:"Instagram",
         image:"/assets/images/landingPage/media/highlight-3.jpg",
         button:"Read More",
-        link:"https://www.instagram.com/p/DOXqYEjEmoH/?img_index=1"
+        link:"https://www.instagram.com/p/DOXqYEjEmoH/?img_index=1",
+        altText:"Om Prakash Dhankar | GiveYourBest | Former President of India | Instagram Post"
     },
     {
         template:"VIDEO",
@@ -126,7 +142,8 @@ export const highlights = [
         tag:"Youtube",
         image:"/assets/images/landingPage/media/highlight-7.png",
         button:"Read More",
-        link:"https://www.youtube.com/watch?v=qP4mbdP5kv4"
+        link:"https://www.youtube.com/watch?v=qP4mbdP5kv4",
+        altText:"Om Prakash Dhankar | GiveYourBest | Youtube Video"
     }
 ];
 
@@ -138,7 +155,8 @@ export const blogs = [
         date:"Sept 18, 2025",
         template:"dark",
         id:"personal-growth-discover-yourself",
-        route:"personal-growth-discover-yourself"
+        route:"personal-growth-discover-yourself",
+        altText:"Personal Growth | Give Your Best | Om Prakash Dhankar"
     },
     {
         title:"How to Set Personal Development Goals That Actually Last",
@@ -147,7 +165,8 @@ export const blogs = [
         date:"Sept 18, 2025",
         template:"light",
         id:"personal-development-goals-that-last",
-        route:"personal-development-goals-that-last"
+        route:"personal-development-goals-that-last",
+        altText:"Personal Development Goals | Give Your Best | Om Prakash Dhankar"
     },
     {
         title:"Mindfulness, Not Multitasking: The Missing Skill in Modern Self-Development",
@@ -156,7 +175,8 @@ export const blogs = [
         date:"Sept 18, 2025",
         template:"dark",
         id:"mindfulness-not-multitasking",
-        route:"mindfulness-not-multitasking"
+        route:"mindfulness-not-multitasking",
+        altText:"Mindfulness | Give Your Best | Om Prakash Dhankar"
     }
 ]
 

@@ -10,18 +10,12 @@ const Blog = ({ params }) => {
     const router = useRouter();
     const [activeBlog, setActiveBlog] = useState(null);
 
-    // Log outside useEffect for debugging
-    console.log("BlogId 2::", router.query.id);
-    console.log("Blogs :: ", blogs);
-
     useEffect(() => {
         const blogId = router.query.id;
-        console.log("BlogId::", blogId);
 
         // Only proceed if blogId exists
         if (blogId && !activeBlog) {
             const blog = blogs.find((blog) => blog.route === blogId);
-            console.log("Found Blog :: ", blog);
             if (blog) {
                 setActiveBlog(blog); // Fix: Use 'blog' instead of undefined 'b'
             }
