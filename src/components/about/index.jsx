@@ -26,7 +26,7 @@ const About = (props) => {
                         universal philosophy for personal growth and
                         collaborative success.</p>
                 </div>
-                <img src='/assets/images/landingPage/the-man-1.jpg' alt='Om Prakash Dhankar' />
+                <img src='/assets/images/landingPage/the-man-1.jpg' alt='Om Prakash Dhankar | GiveYourBest' />
                 <button onClick={handleContactUs}>Contact</button>
             </div>
 
