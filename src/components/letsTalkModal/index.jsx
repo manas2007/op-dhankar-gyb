@@ -151,7 +151,7 @@ const LetsTalkModal = (props) => {
                             <div className={`${styles.letsTalkForm}`}>
                                 <div className={`${styles.formHeader}`}>
                                     <h3>Your Questions, Our Expertise</h3>
-                                    <p>Let's talk strategy</p>
+                                    <p>Let's talk</p>
                                 </div>
                                 <div className={`${styles.formFieldsWrapper}`}>
                                     <div className={`${styles.formLeftField}`}>
