@@ -42,42 +42,42 @@ export const pillarsTabs = [
 
 export const mediaLibrary = [
     {
-        reel:"/assets/images/landingPage/media-1.jpg",
+        reel:"/assets/images/media/media-1.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 1"
     },
     {
-        reel:"/assets/images/landingPage/media-2.jpg",
+        reel:"/assets/images/media/media-2.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 2"
     },
     {
-        reel:"/assets/images/landingPage/media-3.jpg",
+        reel:"/assets/images/media/media-3.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 3"
     },
     {
-        reel:"/assets/images/landingPage/media-4.jpg",
+        reel:"/assets/images/media/media-4.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 4"
     },
     {
-        reel:"/assets/images/landingPage/media-1.jpg",
+        reel:"/assets/images/media/media-5.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 1"
     },
     {
-        reel:"/assets/images/landingPage/media-2.jpg",
+        reel:"/assets/images/media/media-6.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 2"
     },
     {
-        reel:"/assets/images/landingPage/media-3.jpg",
+        reel:"/assets/images/media/media-7.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 3"
     },
     {
-        reel:"/assets/images/landingPage/media-4.jpg",
+        reel:"/assets/images/media/media-8.png",
         id:"",
         altText:"Om Prakash Dhankar | GiveYourBest | Media Reel 4"
     }
