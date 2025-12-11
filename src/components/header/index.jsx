@@ -14,12 +14,12 @@ const Header = (props) => {
     const isMobile = useCheckMobileScreen();
     const router = useRouter();
     const currentPath = router.asPath;
-    const [showSocials, setShowSocials] = useState(false);
+    const [showSocials, setShowSocials] = useState(true);
     const [showSidebar, setShowSidebar] = useState(false);
 
-    useEffect(() => {
-        setShowSocials(isMobile ? false : true);
-    },[isMobile])
+    // useEffect(() => {
+    //     setShowSocials(isMobile ? false : true);
+    // },[isMobile])
 
     const onSocialIconClick = (icon) => {
         if (icon == "FACEBOOK") {
