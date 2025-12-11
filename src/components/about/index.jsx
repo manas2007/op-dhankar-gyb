@@ -8,6 +8,14 @@ const About = (props) => {
 
     const isMobile = useCheckMobileScreen();
 
+    const onSocialIconClick = (icon) => {
+        if (icon == "FACEBOOK") {
+            window.open("https://www.facebook.com/dhankar.op");
+        } else if (icon == "INSTAGRAM") {
+            window.open("https://www.instagram.com/omji_dhankar/");
+        }
+    }
+
     return (<div className={` ${styles.aboutParent} `}>
         <div className={` ${styles.aboutWrapper} `}>
 
@@ -24,7 +32,13 @@ const About = (props) => {
                         experience in leadership, education, and public
                         service, he now dedicates himself to spreading a
                         universal philosophy for personal growth and
-                        collaborative success.</p>
+                        collaborative success.
+                    </p>
+                    <div style={{display:"flex", paddingTop:"1.5rem"}}>
+                        <img style={{width:"2rem", border:"1px solid white"}} alt="Om Prakash Dhankar | Personal | Facebook" onClick={() => onSocialIconClick("FACEBOOK")} src="/assets/images/aboutUs/SVG/Facebook-2.svg" />
+                        <img style={{width:"2rem", marginLeft:"1rem", border:"1px solid white"}} alt="Om Prakash Dhankar | Personal | Instagram" onClick={() => onSocialIconClick("INSTAGRAM")} src="/assets/images/aboutUs/SVG/Insta-2.svg" />
+                    </div>
+
                 </div>
                 <img src='/assets/images/landingPage/the-man-1.jpg' alt='Om Prakash Dhankar | GiveYourBest' />
                 <button onClick={handleContactUs}>Contact</button>

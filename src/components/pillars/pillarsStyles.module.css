@@ -4,6 +4,8 @@
   padding: 4rem 0;
   background-image: url("/assets/images/landingPage/web-bg-5.png");
   background-position: 20% 30%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .pillarsWrapper {
